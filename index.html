@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+HR+Lijeva:wght@100..400&display=swap"
+        rel="stylesheet">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    fontFamily: {
+                        play: ['Playwrite HR Lijeva', 'cursive'],
+                        edu: ['Edu AU VIC WA NT Hand', 'serif']
+                    },
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="bg-fuchsia-100 dark:bg-black/70 dark:text-white">
+    <nav class="mt-[20px] mx-auto">
+        <div class="container w-[90%] lg:w-10/12 mx-auto  flex justify-around items-center ">
+            <p class="text-[20px] lg:text-[30px] font-bold"><span
+                    class="text-[violet] text-[32px] lg:text-[42px]">R</span>uxshona</p>
+            <ul class="flex gap-[6px] lg:gap-[20px] items-center">
+                <li class="p-[10px] text-[8px] lg:text-[16px] font-bold hover:text-fuchsia-700 "><a
+                        href="#"></a>Projects
+                </li>
+                <li class="p-[10px] text-[8px] lg:text-[16px] font-bold hover:text-fuchsia-700 "><a href="#"></a>About
+                    Me
+                </li>
+                <li class="p-[10px] text-[8px] lg:text-[16px] font-bold hover:text-fuchsia-700 "><a href="#"></a>Contact
+                </li>
+                <li class="p-[10px] text-[8px] lg:text-[16px] font-bold hover:text-fuchsia-700 "><a href="#"></a>Rewiews
+                </li>
+
+            </ul>
+            <button
+                class="font-bold text-white text-[8px] lg:text-[16px] rounded-lg lg:rounded-2xl p-[5px] lg:p-[15px] w-[100px] lg:w-[200px] bg-fuchsia-400 hover:bg-fuchsia-300 hover:text-fuchsia-500 border">Contact
+                me</button>
+            <button class="bg-fuchsia-300 p-[15px] rounded-[10px] text-fuchsia-500 "
+                onclick="darkMode()">black/white</button>
+        </div>
+    </nav>
+
+    <header class=" my-[30px] ">
+        <div
+            class="container overlay relative lg:w-10/12 mx-auto rounded-2xl bg-[url('./images/photo.jpg')] bg-cover bg-center  h-[100vh]">
+            <div data-aos="zoom-in-up" data-aos-easing="ease-in-back" data-aos-delay="600" data-aos-offset="0"
+                class="  absolute overlay inset-0 lg:inset-12 bg-white/50 lg:w-10/12 mx-auto mt-[66px] rounded-2xl h-[60vh] flex flex-col justify-center items-center ">
+                <h1 class="lg:text-[60px] text-[40px] text-fuchsia-700 font-bold  "> Frontend Developer</h1>
+                <h2 class="lg:text-[40px] text-[20px] text-black font-edu ">Hello, I'm Ruxshona Xalilova</h2>
+                <p class="lg:text-[20px] text-[14px] text-[gray] text-center   ">This is my personal portfolio where I
+                    share my projects and ideas. Join us!</p>
+                <button
+                    class="lg:text-[20px] text-white text-[14px] rounded-lg lg:rounded-2xl lg:p-[10px] p-[5px]  bg-fuchsia-400 hover:bg-fuchsia-300 lg:mt-[20px] mt-[10px] hover:text-fuchsia-500">Find
+                    out more</button>
+            </div>
+        </div>
+    </header>
+
+
+    <section class=" min-h-[100vh]">
+        <div
+            class="container w-[90%] lg:w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-3 place-items-center gap-4 lg:gap-8 min-h-[100vh]">
+
+            <div class="main__store ">
+                <h3 class="text-[40px] text-bold">MY STORE</h3>
+                <p class="text-[18px] text-[violet] text-start ">I'm Frontend developer, from Uzbekistan.
+                    I study at the Najot ta'lim training center. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ab, corrupti esse. Odit, ipsa? Est minima aliquam quibusdam ipsum sint molestias doloremque
+                    unde harum laboriosam ea qui, eligendi nostrum dolorum error!
+                </p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <img class=" rounded-[50%] bg-fuchsia-300" src="./images/main.png" alt="main">
+            </div>
+            <div class="main__information data-aos=fade-right ">
+                <h3 class="text-[40px] text-bold">Personal Information</h3>
+                <ul class="">
+                    <li class="text-[18px] text-black  text-bold mt-[15px] dark:text-white">Name: <span
+                            class="text-bold text-fuchsia-500 p-[10px]">Xalilova Ruxshona</span></li>
+                    <li class="text-[18px] text-black  text-bold mt-[15px] dark:text-white">Age: <span
+                            class="text-bold text-fuchsia-500 p-[10px]">18 Years</span></li>
+                    <li class="text-[18px] text-black  text-bold mt-[15px] dark:text-white">Phone: <span
+                            class="text-bold text-fuchsia-500 p-[10px]">+99893 050 28 04</span></li>
+                    <li class="text-[18px] text-black  text-bold mt-[15px] dark:text-white">E-mail: <span
+                            class="text-bold text-fuchsia-500 p-[10px]">rukhshona.umidjonovnaa@gmail.com</span></li>
+                    <li class="text-[18px] text-black  text-bold mt-[15px] dark:text-white">Address: <span
+                            class="text-bold text-fuchsia-500 p-[10px]">Tashkent,Uzbekistan</span></li>
+                </ul>
+                <div class="inform__icons mt-[35px] flex items-center justify-around">
+                    <i
+                        class="fa-brands fa-facebook text--[20px] lg:text-[25px] hover:text-fuchsia-700 hover:scale-[1.2] "></i>
+                    <i
+                        class="fa-brands fa-instagram text--[20px] lg:text-[25px] hover:text-fuchsia-700 hover:scale-[1.2] "></i>
+                    <i
+                        class="fa-solid fa-paper-plane text--[20px] lg:text-[25px] hover:text-fuchsia-700 hover:scale-[1.2] "></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="myworks flex items-center   ">
+        <div
+            class="container w-[90%] lg:w-10/12 mx-auto mt-[10px] flex flex-col items-center gap-8 justify-center min-h-[100vh] ">
+            <h3 class="text-[40px] font-bold ">MY PROJECTS</h3>
+            <div class="work__projects grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 ">
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №1</h4>
+                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                        aspernatur distinctio, quaerat ea
+                        soluta esse nisi eius aliquid omnis exercitationem!
+                        <a class="text-fuchsia-700 block" href="https://harista-lim-y3nq.vercel.app"
+                            target="_blank">open website</a>
+                    </p>
+                </div>
+                <div data-aos="fade-zoom-in"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №2</h4>
+                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                        aspernatur distinctio, quaerat ea
+                        soluta esse nisi eius aliquid omnis exercitationem!
+                        <a class="text-fuchsia-700 block" href="https://hotel-clpt.vercel.app" target="_blank">open
+                            website</a>
+                    </p>
+                </div>
+                <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №3</h4>
+                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                        aspernatur distinctio, quaerat ea
+                        soluta esse nisi eius aliquid omnis exercitationem!
+                        <a class="text-fuchsia-700 block" href="https://burger-alpha-two.vercel.app
+                        " target="_blank">open website</a>
+                    </p>
+                </div>
+                <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №4</h4>
+                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                        aspernatur distinctio, quaerat ea
+                        soluta esse nisi eius aliquid omnis exercitationem!
+                        <a class="text-fuchsia-700 block" href="https://digital-ocean-c1uh.vercel.app
+                        " target="_blank">open website</a>
+                    </p>
+                </div>
+                <div data-aos="fade-zoom-in"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №5</h4>
+                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                        aspernatur distinctio, quaerat ea
+                        soluta esse nisi eius aliquid omnis exercitationem!
+                        <a class="text-fuchsia-700 block" href="https://furniture-t9y2.vercel.app
+                        " target="_blank">open website</a>
+                    </p>
+                </div>
+
+                <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №6</h4>
+                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                        aspernatur distinctio, quaerat ea
+                        soluta esse nisi eius aliquid omnis exercitationem!
+                        <a class="text-fuchsia-700 block" href="https://car-two-chi.vercel.app
+                        " target="_blank">open website</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="me">
+        <div class="container w-[90%] lg:w-10/12 mx-auto items-center  min-h-[100vh]">
+            <div class="left">
+                <h2 class="text-[40px] text-fuchsia-700 text-bold mt-[50px] dark:text-fuchsia-500">Why choose me?</h2>
+                <h4 class="text-[28px] text-black mt-[20px] font-edu dark:text-white ">I'm not just a programmer, I'm
+                    your partner in
+                    creating
+                    unique projects!</h4>
+                <button
+                    class="lg:text-[20px] text-white text-[14px] rounded-lg lg:rounded-2xl lg:p-[10px] p-[5px]  bg-fuchsia-400 hover:bg-fuchsia-300 lg:mt-[20px] mt-[10px] hover:text-fuchsia-500">find
+                    out more</button>
+
+            </div>
+            <div class="   flex flex-col items-center gap-8">
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center" class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] mt-[30px] hover:scale-[1.1] ">
+                    <h3 class="text-bold text-[22px] lg:text-[30px] text-violet-500 font-play ">Creativity</h3>
+                    <p>I am always looking for non-standard solutions and fresh ideas for your projects.</p>
+                </div>
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center" class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] hover:scale-[1.1] ">
+                    <h3 class="text-bold text-[22px] lg:text-[30px] text-violet-500 font-play ">Support</h3>
+                    <p>I am always in touch and ready to help you in any situation.</p>
+                </div>
+                <div data-aos="fade-up"
+     data-aos-anchor-placement="center-center" class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] hover:scale-[1.1] ">
+                    <h3 class="text-bold text-[22px] lg:text-[30px] text-violet-500  font-play ">Ideas</h3>
+                    <p>I am always looking for creative solutions to make each project unique and memorable!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section class="Questions">
+        <div
+            class="container w-[90%] lg:w-10/12 mx-auto items-center grid lg:grid-cols-2 grid-cols-1 gap-10 min-h-[100vh] ">
+            <div class="left">
+                <h3 class="text-[30px] text-fuchsia-700 m-5 shadow dark:text-fuchsia-500 ">
+                    Frequently Asked Questions
+                </h3>
+                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                    <h5 class="dark:text-fuchsia-500 text-[20px]">What are my main skills?</h5>
+                    <i class="fa-solid fa-plus hover:scale-[1.2]"></i>
+                </div>
+                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                    <h5 class="dark:text-fuchsia-500 text-[20px]">Where did I study?</h5>
+                    <i class="fa-solid fa-plus   hover:scale-[1.2] "></i>
+                </div>
+                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                    <h5 class="dark:text-fuchsia-500 text-[20px]">What's my favorite project?</h5>
+                    <i class="fa-solid fa-plus   hover:scale-[1.2] "></i>
+                </div>
+                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                    <h5 class="dark:text-fuchsia-500 text-[20px]">How to contact me?</h5>
+                    <i class="fa-solid fa-plus   hover:scale-[1.2] "></i>
+                </div>
+                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                    <h5 class="dark:text-fuchsia-500 text-[20px]">Why did I choose this profession?</h5>
+                    <i class="fa-solid fa-plus  hover:scale-[1.2]"></i>
+                </div>
+            </div>
+            <div data-aos="fade-up-left" class="right">
+                <img class="rounded-[20%] shadow-2xl hover:scale-[0.9] " src="./images/computer.jpg" alt="laptop">
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="container w-[90%] lg:w-10/12 mx-auto min-h-[100vh] flex flex-col items-center justify-center  ">
+
+            <div class="mx-auto">
+                <h2 class="mt-[30px] text-[20px] text-black text-center dark:text-white">My team</h2>
+                <p class="p-[20px] text-[36px] text-fuchsia-500">Meet the team</p>
+            </div>
+            <div class=" grid lg:grid-cols-3 gap-10 grid-cols-1 ">
+                <div data-aos="flip-left" class="team">
+                    <img class="rounded-2xl h-[200px] shadow-2xl hover:scale-[1.05]"
+                        src="https://it-course.ru/assets/images/web-designer-1.jpg" alt="team">
+                    <h4 class="text-[30px]">Anna Smirnova</h4>
+                    <p class="text-[24px] font-play mb-[10px] font-bold">Designer</p>
+                    <button
+                        class="px-[60px] py-[15px] rounded-2xl bg-fuchsia-300 text-violet-800 hover:bg-fuchsia-400">More</button>
+                </div>
+                <div data-aos="flip-left" class="team">
+                    <img class="rounded-2xl h-[200px] shadow-2xl hover:scale-[1.05]"
+                        src="https://api.vshp.online/system/study/program/309/cover_man-with-the-glasses-student-in-computer-science-class-person-uses-a-computer.jpg"
+                        alt="team">
+                    <h4 class="text-[30px]">Ivan Bolkov</h4>
+                    <p class="text-[24px] font-play mb-[10px] font-bold">Developer</p>
+                    <button
+                        class="px-[60px] py-[15px] rounded-2xl bg-fuchsia-300 text-violet-800 hover:bg-fuchsia-400">More</button>
+                </div>
+                <div data-aos="flip-left" class="team">
+                    <img class="rounded-2xl h-[200px] shadow-2xl hover:scale-[1.05]"
+                        src="https://i.work.ua/cdn-cgi/image/f=jpeg/article/2704b.jpg?v=1713862823" alt="team">
+                    <h4 class="text-[30px]">Anastasia Uspenskaya</h4>
+                    <p class="text-[24px] font-play mb-[10px] font-bold">Manager</p>
+                    <button
+                        class="px-[60px] py-[15px] rounded-2xl bg-fuchsia-300 text-violet-800 hover:bg-fuchsia-400">More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <div class="contact">
+        <div
+            class="container w-[90%] lg:w-10/12 mx-auto min-h-[100vh] grid lg:grid-cols-2 grid-cols-1 items-center justify-center ">
+            <div class="left">
+                <h3 class="text-[40px] text-fuchsia-700 pb-[30px]">Contact me</h3>
+                <h5 class="text-[30px] text-black font-edu w-[70%] pb-[50px] dark:text-white ">I'm always happy to meet
+                    new people! Write to me.</h5>
+                <div class="text">
+                    <p class="text-[20px] mt-[15px]"><i class="fa-regular fa-envelope"></i>
+                        rukhshona.umidjonovnaa@gmail.com</p>
+                    <p class="text-[20px] mt-[15px]"> <i class="fa-brands fa-instagram"></i> @my_instagram</p>
+                    <p class="text-[20px] mt-[15px]"> <i class="fa-solid fa-phone"></i> +1234567890</p>
+                </div>
+            </div>
+            <div data-aos="zoom-in-down" class="right">
+                <input class="p-[20px] border bg-white rounded-2xl focus:outline-none  mt-[20px] shadow-2xl "
+                    type="text" placeholder="E-mail">
+                <input class="p-[20px] border bg-white rounded-2xl focus:outline-none mt-[20px] " type="text"
+                    placeholder="Name">
+                <textarea id="massage" rows="4" placeholder="Massage"
+                    class="w-full bg-white text-gray py-2 px-4 rounded-2xl focus:outline-none mt-[20px] shadow-2xl  "></textarea>
+                <button type="submit"
+                    class="w-[200px] text-violet-800 py-2 px-4 rounded-2xl hover:bg-fuchsia-400 focus:outline-none focus:ring-offset-2 bg-fuchsia-300 mt-[20px] shadow-2xl ">Send</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div data-aos="zoom-in-down"
+            class="container w-[90%] lg:w-10/12 mx-auto min-h-[100vh] flex flex-col gap-10 items-center justify-center text-[40px] text-black text-bold dark:text-white">
+            <i class="fa-solid fa-globe hover:text-fuchsia-500"></i>
+            <p class="hover:text-fuchsia-500">rukhshona.umidjonovnaa@gmail.com</p>
+            <p class="hover:text-fuchsia-500">+1234567890</p>
+            <p class="hover:text-fuchsia-500">Tashkent Uzbekistan</p>
+        </div>
+        <div class="flex items-end justify-center m-[10px]">
+            <p class="hover:text-fuchsia-500">2024 All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        let html = document.documentElement;
+        function darkMode() {
+            html.classList.toggle('dark')
+            html.classList.toggle('light')
+        }
+    </script>
+</body>
+
+</html>
