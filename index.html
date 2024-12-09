@@ -42,10 +42,10 @@
 
 <body class="bg-fuchsia-100 dark:bg-black/70 dark:text-white">
     <nav class="mt-[20px] mx-auto">
-        <div class="container w-[90%] lg:w-10/12 mx-auto  flex justify-around items-center ">
+        <div class="container w-[90%] lg:w-10/12 mx-auto flex justify-around items-center ">
             <p class="text-[20px] lg:text-[30px] font-bold"><span
                     class="text-[violet] text-[32px] lg:text-[42px]">R</span>uxshona</p>
-            <ul class="flex gap-[6px] lg:gap-[20px] items-center">
+            <ul class="hidden lg:flex gap-[6px] lg:gap-[20px] items-center">
                 <li class="p-[10px] text-[8px] lg:text-[16px] font-bold hover:text-fuchsia-700 "><a
                         href="#"></a>Projects
                 </li>
@@ -58,10 +58,13 @@
                 </li>
 
             </ul>
+            <i
+                class="fa-solid fa-bars text-[20px] text-fuchsia-700 lg:hidden flex items-center justify-center p-[20px] mt-[10px]"></i>
             <button
                 class="font-bold text-white text-[8px] lg:text-[16px] rounded-lg lg:rounded-2xl p-[5px] lg:p-[15px] w-[100px] lg:w-[200px] bg-fuchsia-400 hover:bg-fuchsia-300 hover:text-fuchsia-500 border">Contact
                 me</button>
-            <button class=" text-[10px] lg:text-[20px] lg:h-[50px] bg-fuchsia-300 m-3 h-5 lg:p-[15px] rounded-[10px] text-fuchsia-500 "
+            <button
+                class=" text-[10px] lg:text-[20px] lg:h-[50px] bg-fuchsia-300 m-3 h-5 lg:p-[15px] rounded-[10px] text-fuchsia-500 "
                 onclick="darkMode()">black/white</button>
         </div>
     </nav>
@@ -131,68 +134,41 @@
             <div class="work__projects grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-8 ">
                 <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
                     class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
-                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №1</h4>
-                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                        aspernatur distinctio, quaerat ea
-                        soluta esse nisi eius aliquid omnis exercitationem!
-                        <a class="text-fuchsia-700 block" href="https://harista-lim-y3nq.vercel.app"
-                            target="_blank">open website</a>
-                    </p>
+                    <h4 class="text-[26px] m-[10px] text-bold text-[white] text-center   ">Project №1 <a class="text-violet  block " href="https://harista-lim-y3nq.vercel.app" target="_blank">open
+                        website</a> </h4>
+                   <img class="object-cover rounded-lg shadow-2xl w-full h-[200px]" src="./images/haris.jpg" alt="haris">
                 </div>
-                <div data-aos="fade-zoom-in"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
-                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №2</h4>
-                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                        aspernatur distinctio, quaerat ea
-                        soluta esse nisi eius aliquid omnis exercitationem!
-                        <a class="text-fuchsia-700 block" href="https://hotel-clpt.vercel.app" target="_blank">open
-                            website</a>
+                <div data-aos="fade-zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-[white] text-center   ">Project №2 <a class="text-violet  block " href="https://hotel-clpt.vercel.app" target="_blank">open
+                        website</a> </h4>
+                   <img class="object-cover rounded-lg shadow-2xl w-full h-[200px]" src="./images/bon hotel.jpg" alt="haris">
                     </p>
-                </div>
-                <div data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
-                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №3</h4>
-                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                        aspernatur distinctio, quaerat ea
-                        soluta esse nisi eius aliquid omnis exercitationem!
-                        <a class="text-fuchsia-700 block" href="https://burger-alpha-two.vercel.app
-                        " target="_blank">open website</a>
-                    </p>
+                </div> 
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-[white] text-center   ">Project №3 <a class="text-violet  block " href="https://digital-ocean-c1uh.vercel.app" target="_blank">open
+                        website</a> </h4>
+                   <img class="object-cover rounded-lg shadow-2xl w-full h-[200px]" src="./images/businnes.jpg" alt="haris">
                 </div>
                 <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"
                     class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
-                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №4</h4>
-                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                        aspernatur distinctio, quaerat ea
-                        soluta esse nisi eius aliquid omnis exercitationem!
-                        <a class="text-fuchsia-700 block" href="https://digital-ocean-c1uh.vercel.app
-                        " target="_blank">open website</a>
-                    </p>
+                    <h4 class="text-[26px] m-[10px] text-bold text-[white] text-center   ">Project №4 <a class="text-violet  block " href="https://burger-alpha-two.vercel.app" target="_blank">open
+                        website</a> </h4>
+                   <img class="object-cover rounded-lg shadow-2xl w-full h-[200px]" src="./images/hamburger.jpg" alt="haris">
                 </div>
-                <div data-aos="fade-zoom-in"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
-                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №5</h4>
-                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                        aspernatur distinctio, quaerat ea
-                        soluta esse nisi eius aliquid omnis exercitationem!
-                        <a class="text-fuchsia-700 block" href="https://furniture-t9y2.vercel.app
-                        " target="_blank">open website</a>
-                    </p>
+                <div data-aos="fade-zoom-in" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-[white] text-center   ">Project №5 <a class="text-violet  block " href="https://furniture-t9y2.vercel.app" target="_blank">open
+                        website</a> </h4>
+                   <img class="object-cover rounded-lg shadow-2xl w-full h-[200px]" src="./images/mebel.jpg" alt="haris">
                 </div>
 
-                <div data-aos="fade-left"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine" class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
-                    <h4 class="text-[26px] m-[10px] text-bold text-fuchsia-700 text-center ">Project №6</h4>
-                    <p class="text-[18px] text-center ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-                        aspernatur distinctio, quaerat ea
-                        soluta esse nisi eius aliquid omnis exercitationem!
-                        <a class="text-fuchsia-700 block" href="https://car-two-chi.vercel.app
-                        " target="_blank">open website</a>
-                    </p>
+                <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine"
+                    class="project bg-fuchsia-400 rounded-2xl  hover:scale-[1.1] hover:bg-fuchsia-300 shadow-2xl ">
+                    <h4 class="text-[26px] m-[10px] text-bold text-[white] text-center   ">Project №6 <a class="text-violet  block " href="https://car-two-chi.vercel.app" target="_blank">open
+                        website</a> </h4>
+                   <img class="object-cover rounded-lg shadow-2xl w-full h-[200px]" src="./images/yuk mashina.jpg" alt="haris">
                 </div>
             </div>
         </div>
@@ -212,18 +188,18 @@
 
             </div>
             <div class="   flex flex-col items-center gap-8">
-                <div data-aos="fade-up"
-     data-aos-anchor-placement="center-center" class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] mt-[30px] hover:scale-[1.1] ">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center"
+                    class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] mt-[30px] hover:scale-[1.1] ">
                     <h3 class="text-bold text-[22px] lg:text-[30px] text-violet-500 font-play ">Creativity</h3>
                     <p>I am always looking for non-standard solutions and fresh ideas for your projects.</p>
                 </div>
-                <div data-aos="fade-up"
-     data-aos-anchor-placement="center-center" class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] hover:scale-[1.1] ">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center"
+                    class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] hover:scale-[1.1] ">
                     <h3 class="text-bold text-[22px] lg:text-[30px] text-violet-500 font-play ">Support</h3>
                     <p>I am always in touch and ready to help you in any situation.</p>
                 </div>
-                <div data-aos="fade-up"
-     data-aos-anchor-placement="center-center" class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] hover:scale-[1.1] ">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-center"
+                    class="rounded-2xl bg-fuchsia-300 shadow-2xl text-white p-[20px] hover:scale-[1.1] ">
                     <h3 class="text-bold text-[22px] lg:text-[30px] text-violet-500  font-play ">Ideas</h3>
                     <p>I am always looking for creative solutions to make each project unique and memorable!</p>
                 </div>
@@ -242,23 +218,28 @@
                 <h3 class="text-[30px] text-fuchsia-700 m-5 shadow dark:text-fuchsia-500 ">
                     Frequently Asked Questions
                 </h3>
-                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                <div data-aos="fade-up-right"
+                    class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
                     <h5 class="dark:text-fuchsia-500 text-[20px]">What are my main skills?</h5>
                     <i class="fa-solid fa-plus hover:scale-[1.2]"></i>
                 </div>
-                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                <div data-aos="fade-up-right"
+                    class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
                     <h5 class="dark:text-fuchsia-500 text-[20px]">Where did I study?</h5>
                     <i class="fa-solid fa-plus   hover:scale-[1.2] "></i>
                 </div>
-                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                <div data-aos="fade-up-right"
+                    class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
                     <h5 class="dark:text-fuchsia-500 text-[20px]">What's my favorite project?</h5>
                     <i class="fa-solid fa-plus   hover:scale-[1.2] "></i>
                 </div>
-                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                <div data-aos="fade-up-right"
+                    class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
                     <h5 class="dark:text-fuchsia-500 text-[20px]">How to contact me?</h5>
                     <i class="fa-solid fa-plus   hover:scale-[1.2] "></i>
                 </div>
-                <div data-aos="fade-up-right" class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
+                <div data-aos="fade-up-right"
+                    class="flex items-center justify-between border rounded-2xl bg-purple-200 p-[20px] mt-[20px]">
                     <h5 class="dark:text-fuchsia-500 text-[20px]">Why did I choose this profession?</h5>
                     <i class="fa-solid fa-plus  hover:scale-[1.2]"></i>
                 </div>
